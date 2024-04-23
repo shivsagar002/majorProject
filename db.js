@@ -2,7 +2,6 @@ const { default: mongoose } = require("mongoose");
 require('dotenv').config();
 
 const mongoURL = process.env.MongoDB_URL;
-console.log(mongoURL);
 
 mongoose.connect(mongoURL, {});
 
